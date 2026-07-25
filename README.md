@@ -67,6 +67,3 @@ See `commoditex.tokenlist.json` for the full list of deployed assets.
 | RPC | Via Alchemy |
 | Explorer | Blockscout |
 
-## Author
-
-[@commoditexdev](https://github.com/commoditexdev)
