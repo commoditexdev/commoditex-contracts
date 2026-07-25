@@ -1,0 +1,22 @@
+{
+  "name": "commoditex-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node compile.mjs",
+    "deploy": "node deploy.mjs",
+    "deploy:spot": "node deploy.spot.mjs",
+    "deploy:perp": "node deploy.perp.mjs",
+    "verify": "node verify.mjs",
+    "check:balances": "node check-balances.mjs",
+    "e2e": "node e2e-roundtrip.mjs"
+  },
+  "dependencies": {
+    "solc": "0.8.24",
+    "viem": "^2.55.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
