@@ -66,4 +66,3 @@ See `commoditex.tokenlist.json` for the full list of deployed assets.
 | Chain ID | 1996 |
 | RPC | Via Alchemy |
 | Explorer | Blockscout |
-
