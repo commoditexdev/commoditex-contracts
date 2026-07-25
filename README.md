@@ -15,7 +15,7 @@ Compiled with `solc` npm package directly - no Hardhat required.
 
 | Contract | Description |
 |----------|-------------|
-| `UnihoodSynth.sol` | Core synthetic asset trading engine |
+| `CommoditexSynth.sol` | Core synthetic asset trading engine |
 | `CommoditexAssetFactory.sol` | Factory that deploys 44 individual spot token contracts |
 | `CommoditexToken.sol` | ERC-20 token for each tradeable asset |
 | `CommoditexSpotRouter.sol` | Buy/sell routing for spot assets |
@@ -49,7 +49,7 @@ npm run verify
 ## Deploy Order
 
 1. `npm run compile` - compile all Solidity to ABI + bytecode
-2. `npm run deploy` - deploy UnihoodSynth + SpotRouter + PerpRouter + PerpNFT + PerpOracle
+2. `npm run deploy` - deploy CommoditexSynth + SpotRouter + PerpRouter + PerpNFT + PerpOracle
 3. Copy deployed addresses to `.env`
 4. `npm run deploy:spot` - deploy all 44 spot token contracts via AssetFactory
 5. `npm run e2e` - run end-to-end roundtrip test
